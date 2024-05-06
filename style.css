@@ -1,33 +1,45 @@
-.black{
-    background-color: #2F303A;
-    color: white;
+.black {
+  background-color: #2F303A;
+  color: white;
+  text-transform: none; 
 }
 
 footer {
-    background-color: #2F303A;
-    color: white;
+  background-color: #2F303A;
+  color: white;
+  text-transform: none; 
 }
 
 button {
-    background-color: #2196F3;
-    color: white;
+  background-color: #2196F3;
+  color: white;
+  text-transform: none; 
 }
 
 .blue {
-    color: #2196F3;
-  }
-  
-  .black2 {
-    color: black;
-  }
-  
-  .blue2 {
-    color: #2196F3;
-  }
-  
-  .white {
-    color: white;
-  }
+  color: #2196F3;
+}
+
+.black2 {
+  color: black;
+}
+
+.blue2 {
+  color: #2196F3;
+}
+
+.white {
+  color: white;
+}
+
+.center {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
   
   h1 {
     font-family: 'Roboto', sans-serif;
@@ -43,3 +55,17 @@ button {
     font-weight: 400;
   }
     
+  .blue-black {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+  }
+
+  .stydio {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+  }
+
+  .stydio2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+  }
