@@ -30,10 +30,15 @@ button {
 
 .white {
   color: white;
+  font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+  
 }
 
 .center {
   text-align: center;
+  font-size: 44px;
 }
 
 a {
@@ -48,24 +53,47 @@ a {
   h3 {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
+    font-size: 36px;
   }
     
   p {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    font-size: 14px;
   }
     
   .blue-black {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
+    font-size: 26px;
   }
 
   .stydio {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
+    font-size: 14px;
   }
 
   .stydio2 {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    font-size: 14px;
+  }
+
+  .list {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  .img {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+  }
+
+  .team-list {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
   }
