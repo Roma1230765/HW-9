@@ -1,99 +1,65 @@
-.black {
-  background-color: #2F303A;
-  color: white;
-  text-transform: none; 
-}
-
+.black,
 footer {
-  background-color: #2F303A;
-  color: white;
-  text-transform: none; 
+    background-color: #2F303A;
+    color: white;
+    text-transform: none; 
 }
 
 button {
-  background-color: #2196F3;
-  color: white;
-  text-transform: none; 
+    background-color: #2196F3;
+    color: white;
+    text-transform: none; 
 }
 
-.blue {
-  color: #2196F3;
+.blue,
+.blue2 {
+    color: #2196F3;
 }
 
 .black2 {
-  color: black;
-}
-
-.blue2 {
-  color: #2196F3;
+    color: black;
 }
 
 .white {
-  color: white;
-  font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-  
-}
-
-.center {
-  text-align: center;
-  font-size: 44px;
-}
-
-a {
-  text-decoration: none;
-}
-
-  
-  h1 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 900;
-  }
-  h3 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 36px;
-  }
-    
-  p {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-  }
-    
-  .blue-black {
+    color: white;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
-  }
+}
 
-  .stydio {
+.center {
+    text-align: center;
+    font-size: 44px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
     font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-  }
+    font-weight: 900;
+}
 
-  .stydio2 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-  }
-
-  .list {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-  }
-
-  .img {
+h3 {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    font-size: 14px;
-  }
+    font-size: 36px;
+}
 
-  .team-list {
+p,
+.stydio,
+.stydio2,
+.list,
+.img,
+.team-list {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 16px;
-  }
+    font-size: 14px;
+}
+
+.blue-black {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+}

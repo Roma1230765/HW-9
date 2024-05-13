@@ -6,6 +6,19 @@ footer{
     background-color: #2196F3
 }
 
+.white {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 26px;
+}
+
+.button {
+  font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
 .blue {
     color: #2196F3;
   }
@@ -17,6 +30,7 @@ footer{
   .blue-black {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
+    font-size: 26px;
   }
 
   a {
@@ -26,23 +40,24 @@ footer{
   h3 {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
+    font-size: 18px;
   }
 
   p {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    font-size: 16px;
   }
 
   .Medium {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
+    font-size: 14px;
   }
 
   .Regular {
     font-family: 'Roboto', sans-serif;
     font-weight: 400; 
+    font-size: 14px;
   }
 
-  .white {
-    color: white;
-  }
