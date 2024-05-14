@@ -27,6 +27,14 @@ button {
     font-size: 26px;
 }
 
+.footer-Web {
+    color: #2196F3;
+}
+
+.footer-Studio {
+    color: white;
+}
+
 .center {
     text-align: center;
     font-size: 44px;
@@ -43,14 +51,24 @@ h1 {
 
 h3 {
     font-family: 'Roboto', sans-serif;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 36px;
 }
 
-p,
+.list {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
 .stydio,
 .stydio2,
-.list,
 .img,
 .team-list {
     font-family: 'Roboto', sans-serif;
