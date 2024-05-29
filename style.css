@@ -1,47 +1,96 @@
-.black,
+:root{
+    --accent-color:#2196F3;
+  --logo-color: #000;
+  --text-color:#212121;
+  --additional-color: #757575;
+  --footer-namber:rgba(255, 255, 255, 0.60);
+  --footer-background: #2F303A;
+  --team-background:#F5F4FA;
+  --main-background:#FFF;
+
+  }
+
+body {
+
+    font-family:'Raleway', sans-serif; 
+   font-size: 14px;
+   }
+
+.section-black,
 footer {
-    background-color: #2F303A;
-    color: white;
+    background-color:var(--footer-background);
+    color:var(--main-background);
     text-transform: none; 
 }
 
 button {
-    background-color: #2196F3;
-    color: white;
+    background-color: var(--accent-color);
+    color: var(--main-background);
     text-transform: none; 
 }
 
-button {
-    font-family: 'Roboto', sans-serif;
+.title {
     font-weight: 700;
-    font-size: 16px;
+    font-size: 36;  
 }
 
-.blue,
+nav {
+    display: flex;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.header-blue,
 .blue2 {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
-.black2 {
-    color: black;
+.header-black2 {
+    color:var(--logo-color);
 }
 
-.white {
-    color: white;
+.footer-link {
+    color:var(--main-background);
     font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 26px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
 }
+
+.address-link {
+    color: var(--main-background);
+}
+.footer-link {
+color: var(--footer-namber);
+}
+
+.header-link:hover,
+.header-link:focus {
+color: var(--accent-color);}
 
 .footer-web {
-    color: #2196F3;
+    color: var(--accent-color);
 }
-
 .footer-studio {
-    color: white;
+    color: var(--main-background);
 }
 
-.center {
+.hero-title {
     text-align: center;
     font-size: 44px;
 }
@@ -53,18 +102,14 @@ a {
 h1 {
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
+    font-size: 44;
+    line-height: 1.36;
 }
 
 h3 {
     font-family: 'Roboto', sans-serif;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 36px;
-}
-
-.list {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 14px;
 }
 
 p {
@@ -73,15 +118,15 @@ p {
     font-size: 16px;
 }
 
-.stydio,
-.stydio2,
+.link-stydio,
+.list,
 .team-list {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14px;
 }
 
-.blue-black {
+.heder-logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;

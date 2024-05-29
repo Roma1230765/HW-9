@@ -1,44 +1,41 @@
+:root{
+  --accent-color:#2196F3;
+--logo-color: #000;
+--text-color:#212121;
+--additional-color: #757575;
+--footer-namber:rgba(255, 255, 255, 0.60);
+--footer-background: #2F303A;
+--team-background:#F5F4FA;
+--main-background:#FFF;
+
+}
+
 footer{
-    background-color: #2F303A;
+    background-color:var(--footer-background);
     color: white;
 }
-.button button:hover {
-    background-color: #2196F3
+.card-item button:hover {
+    background-color:var(--accent-color);
 }
 
-.white {
-  color: white;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 500;
-  font-size: 26px;
-}
-
-.footer-web {
-  color: #2196F3;
-}
-
-.footer-studio {
-  color: white;
-}
-
-.button {
+button {
   font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
 }
 
-.blue {
-    color: #2196F3;
+.header-blue {
+    color: var(--accent-color);
   }
   
-  .black2 {
-    color: black;
+  .header-black2 {
+    color: var(--logo-color);
   }
 
-  .blue-black {
+  .nav-link {
     font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 26px;
+    font-weight: 500;
+    font-size: 14px;
   }
 
   a {
@@ -57,15 +54,32 @@ footer{
     font-size: 16px;
   }
 
-  .Medium {
-    font-family: 'Roboto', sans-serif;
+  .footer-logo {
+    color: var(--main-background);
+    font-family: 'Raleway', sans-serif;
     font-weight: 500;
-    font-size: 14px;
-  }
+    font-size: 26px;
+}
 
-  .Regular {
+.footer-web {
+    color: var(--accent-color);
+}
+.footer-studio {
+    color: var(--main-background);
+}
+
+.footer-link {
+  color:var(--footer-namber);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+  .address-link {
     font-family: 'Roboto', sans-serif;
     font-weight: 400; 
     font-size: 14px;
+    line-height: 24px;
+    color: var(--main-background);
   }
-
